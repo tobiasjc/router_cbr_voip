@@ -1,0 +1,3 @@
+/home/josetobias/Dropbox/JoseCarlosTobias/router_cbr_voip/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/josetobias/Dropbox/JoseCarlosTobias/router_cbr_voip/cmake-build-debug/CMakeFiles/router_cbr_voip.dir
+/home/josetobias/Dropbox/JoseCarlosTobias/router_cbr_voip/cmake-build-debug/CMakeFiles/edit_cache.dir
