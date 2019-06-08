@@ -29,7 +29,7 @@ void read_system_input(parameters *p, char **argv) {
     printf("Voip connection interval(s) -> %lf\n", p->voip_interval);
     p->voip_interval = 1.0 / p->voip_interval;
     printf("Voip connection duration(s) -> %lf\n", p->voip_duration);
-    p->voip_duration = 1/p->voip_duration;
+    p->voip_duration = 1 / p->voip_duration;
     printf("Link speed(Mb/s) -> %lf\n", p->link_speed);
 }
 
@@ -85,6 +85,7 @@ void read_users_input(parameters *p) {
         printf("Enter a valid voip duration in (0.0, inf] seconds range: \n");
         fgets(input, sizeof(input), stdin);
     }
+    p->voip_duration = 1 / p->voip_duration;
     fflush(stdin);
 
     printf("Link speed (Mbits/s): \n");

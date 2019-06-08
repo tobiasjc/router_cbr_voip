@@ -1,4 +1,4 @@
-# Install script for directory: /home/josetobias/Dropbox/JoseCarlosTobias/router_cbr_voip
+# Install script for directory: /home/josetobias/Dropbox/university/7th/AD/router_cbr_voip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/josetobias/Dropbox/JoseCarlosTobias/router_cbr_voip/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/josetobias/Dropbox/university/7th/AD/router_cbr_voip/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

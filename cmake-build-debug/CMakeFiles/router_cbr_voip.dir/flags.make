@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/josetobias/Dropbox/JoseCarlosTobias/router_cbr_voip/./include 
+C_INCLUDES = -I/home/josetobias/Dropbox/university/7th/AD/router_cbr_voip/./include 
 

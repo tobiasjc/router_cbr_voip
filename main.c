@@ -8,17 +8,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define USER 0
+#define USER 1
 
 int main(int argc, char **argv) {
     int seed = 1556915527;
     srandom(seed);
 
     parameters *p = create_parameters();
+
     if (USER)
         read_users_input(p);
     else
         read_system_input(p, argv);
+
     execution *e = create_execution(p);
 
     display_expectations(p);

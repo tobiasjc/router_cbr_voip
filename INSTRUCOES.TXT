@@ -1,0 +1,4 @@
+-> O executável se encontra na pasta "cmake-build-debug" com o nome de "router_cbr_voip".
+
+-> Para recompilar o projeto, dentro da pasta "cmake-build-debug", digite "cmake --config ../" e então "cmake --build ./".
+	*Necessita-se de cmake versão 3.1 ou mais nova.
